@@ -1,5 +1,7 @@
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f7fa;
 }
@@ -206,26 +208,30 @@ margin-bottom: 50px;
 }
 
 /* Techskills-column */
-.Techskills-column{
-margin-left: opx;
+.techskills-column,
+.soft-skill{
+margin-left: 0px;
 margin-top: 47px;
 }
 
-/* class="tech-skills-list" */
-.tech-skills-list{
+/*tech-skills-list*/
+.tech-skills-list,
+.soft-skill__list{
 color: #FFFFFF;
 padding: 0px;
 margin-left: 18px;
 }
 
 /* tech-skills-item */
-.tech-skills-item{
+.tech-skills-item,
+.soft-skills__item{
 color: #FB6D3A;
 
 }
 
 /* tech-skills-text */
-.tech-skills-text{
+.tech-skills-text,
+.soft-skills__text{
 color: #FFFFFF;
 font-style: normal;
 font-weight: normal;
@@ -233,27 +239,6 @@ font-size: 14px;
 line-height: 24px;
 }
 
-
-/* soft-skills-item */
-.soft-skills-item{
-    color: #FB6D3A;
-}
-
-/* soft-skills-text */
-.soft-skills-text{
-color: #FFFFFF;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px; 
-}
-
-/* soft-skils-list */
-.soft-skils-list{
-    color: #FFFFFF;
-    padding: 0px;
-    margin-left: 18px;
-}
 
 /* contact-type */
 .contact-type{
